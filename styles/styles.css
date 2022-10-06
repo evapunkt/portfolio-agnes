@@ -1,3 +1,8 @@
+:root {
+  --primary: red;
+  --spacing: 4rem;
+}
+
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -19,10 +24,55 @@ h1 {
   margin-bottom: 2rem;
 }
 
+h2 {
+  text-align: center;
+  font-size: 3vw;
+  text-transform: uppercase;
+  margin-bottom: var(--spacing);
+}
+
+p {
+  line-height: 1.4em;
+  margin-bottom: 1em;
+}
+
 .button {
   color: red;
   border: 2px solid;
   font-weight: bold;
   text-decoration: none;
   padding: 1rem;
+}
+
+.about {
+  background-color: var(--primary);
+  color: #f8f8f8;
+  padding: 4rem;
+}
+.button:hover,
+.button:focus {
+  color: white;
+  background-color: var(--primary);
+}
+
+.about-container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+@media (min-width: 800px) {
+  .about-container {
+    display: flex;
+  }
+
+  .about-text {
+    margin-left: var(--spacing);
+  }
+}
+
+.about-img {
+  display: block;
+  width: 100%;
+  max-width: 350px;
+  margin: 0 auto var(--spacing);
 }
