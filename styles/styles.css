@@ -8,4 +8,21 @@ header {
   align-items: center;
   flex-direction: column;
   height: 100vh;
+  padding: 2rem;
+}
+
+/* TYPOGRAPHY */
+
+h1 {
+  font-size: 5vw;
+  line-height: 1.4em;
+  margin-bottom: 2rem;
+}
+
+.button {
+  color: red;
+  border: 2px solid;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 1rem;
 }
