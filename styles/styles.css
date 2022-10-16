@@ -131,7 +131,7 @@ footer {
   font-weight: bold;
   text-decoration: none;
   color: var(--button-color);
-  margin-bottom: 4rem;
+  margin-bottom: 0.8em;
 }
 
 .button:hover {
