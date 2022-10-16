@@ -37,6 +37,7 @@ h1 {
   font-weight: bold;
   text-decoration: none;
   color: var(--button-color);
+  margin-bottom: 0.8em;
 }
 
 .button:hover {
@@ -101,13 +102,12 @@ p {
     max-width: 350px;
     margin: 0 auto var(--spacing);
   }
-}
-
-.about-img {
-  display: block;
-  width: 100%;
-  max-width: 350px;
-  margin: 0 auto var(--spacing);
+  .article-img {
+    display: block;
+    width: 100%;
+    max-width: 350px;
+    margin: 0 auto var(--spacing);
+  }
 }
 
 .neutral-theme {
@@ -129,6 +129,13 @@ p {
   max-width: 350px;
   margin: 0 auto var(--spacing);
   filter: grayscale(100%);
+}
+
+.article-img {
+  display: block;
+  width: 100%;
+  min-width: 450px;
+  margin: 0 auto var(--spacing);
 }
 
 .about-img:hover {
