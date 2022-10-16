@@ -68,7 +68,7 @@ h1 {
 h2 {
   margin-bottom: var(--spacing);
   text-align: center;
-  font-size: 3vw;
+  font-size: clamp(2rem, 2vw, 200rem);
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -96,12 +96,7 @@ p {
   .about-text {
     margin-left: var(--spacing);
   }
-  .about-img {
-    display: block;
-    width: 100%;
-    max-width: 350px;
-    margin: 0 auto var(--spacing);
-  }
+  .about-img,
   .article-img {
     display: block;
     width: 100%;
@@ -134,7 +129,7 @@ p {
 .article-img {
   display: block;
   width: 100%;
-  min-width: 450px;
+  max-width: 450px;
   margin: 0 auto var(--spacing);
 }
 
@@ -164,7 +159,7 @@ section {
 h3 {
   margin-bottom: 1rem;
   font-size: 2rem;
-  font-weight: bold;
+  font-weight: ;
 }
 
 article {
