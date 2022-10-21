@@ -42,6 +42,16 @@ h3 {
 /* LAYOUT */
 
 header {
+  background-color: #7a2640;
+  padding: 0.2rem 5rem;
+  color: #fff;
+}
+
+header a {
+  color: #fff;
+}
+
+#hero {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -280,4 +290,18 @@ article {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+#nav-div {
+  display: flex;
+  justify-content: end;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav a {
+  padding: 0 0.5em 0;
+  font-size: 0.8em;
 }

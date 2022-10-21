@@ -17,16 +17,32 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
     <link rel="manifest" href="/site.webmanifest" />
+    <script src="script.js"></script>
   </head>
   <body>
-    <header class="neutral-theme">
+    <header>
+      <nav>
+        <ul>
+          <div id="nav-div">
+            <li id="nav-about"><a href="#about">About</a></li>
+            <li id="nav-projects">
+              <a href="#projects">Projects</a>
+            </li>
+            <li id="nav-contacts"><a href="#contacts">Contacts</a></li>
+            <li id="theme"><a href="#">Change Theme</a></li>
+          </div>
+        </ul>
+      </nav>
+    </header>
+    <div id="hero" class="neutral-theme">
       <h1>
         Hello my name is
         <span style="color: #7a2640">Ágnes Kuti-Palásthy</span>. I am a web
         developer.
       </h1>
       <a class="button" href="#about">Find out more</a>
-    </header>
+    </div>
+
     <main>
       <section class="about primary-theme" id="about">
         <h2>About me</h2>
@@ -49,7 +65,7 @@
         </blockquote>
         <cite>Mary Tyler Moore</cite>
       </section>
-      <section class="projects neutral-theme">
+      <section class="projects neutral-theme" id="projects">
         <h2>Projects</h2>
         <article>
           <div class="article-text">
@@ -127,10 +143,10 @@
           />
         </article>
       </section>
-      <section class="contact primary-theme">
+      <section class="contact primary-theme" id="contacts">
         <h2>Contact</h2>
         <p>If you would like to work with me, drop me a message!</p>
-        <a href="mailto:example@example.com" class="button">Let's Talk</a>
+        <a href="mailto:agnesnora@gmail.com" class="button">Let's Talk</a>
       </section>
     </main>
     <footer>
