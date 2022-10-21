@@ -302,6 +302,32 @@ a {
 }
 
 nav a {
-  padding: 0 0.5em 0;
+  padding: 0.5em 1em;
   font-size: 0.8em;
+}
+
+#theme a:hover,
+#theme a:focus {
+  border: 1px solid #fff;
+  background-color: #7a2640;
+  color: #fff;
+}
+
+#theme a {
+  background-color: #fff;
+  color: #7a2640;
+}
+
+#nav-projects,
+#nav-about,
+#nav-contacts {
+  display: none;
+}
+
+@media (min-width: 800px) {
+  #nav-projects,
+  #nav-about,
+  #nav-contacts {
+    display: block;
+  }
 }
