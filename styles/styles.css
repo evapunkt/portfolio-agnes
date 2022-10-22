@@ -331,3 +331,8 @@ nav a {
     display: block;
   }
 }
+
+.dark-theme {
+  background: #333;
+  color: #fff;
+}
